@@ -17,9 +17,9 @@ Segments variants:
         * "0-4" - customers which have done 0-4 orders
         * "5-13" - customers which have done 5-13 orders
         * "14-37" - customers which have done 14-37 orders    
-**recency_segment** -  days since last customer order by a customer
-Segments variants:
-       * "30-60" - 30-60 days since the last order
+**recency_segment** -  days since last customer order by a customer \
+Segments variants: \
+       * "30-60" - 30-60 days since the last order \
        * "61-90" - 61-90 days since the last order
        * "91-120" - 91-120 days since the last order
        * "121-180" - 121-180 days since the last order
