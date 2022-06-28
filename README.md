@@ -57,7 +57,7 @@ which will pass or test the requested api with sample block.
 Credentials used in this project are default credentails for simple project specific.
 
 **Conclusion:**
-we have data till 2018 so all orders are 180+ days older orders and all vouchers almost same
+we have data till 2018 so all orders are 180+ days older orders and all vouchers amount almost same
 
 
     
