@@ -46,7 +46,7 @@ This project divided into two blocks one is ETL job and API code.
      "segment_name":"frequent_segment"
 }`
 
-url: http://127.0.0.1:5000/api/vouchervalue
+url: http://127.0.0.1:5000/api/vouchervalue \n
 airflow url:http://0.0.0.0:8080/admin/airflow/tree?dag_id=voucher_selection
 
 **Testing:**
