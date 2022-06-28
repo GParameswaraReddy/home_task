@@ -37,14 +37,14 @@ The dataset was filtered and cleaned according to the following criteria:
 This project divided into two blocks one is ETL job and API code. \
 **ETL job** This job is scheduled on Airflow, Airflow DAG again has two jobs one is reading the parquet file and uploading the file into postgres table. once it uploades the data another airflow job process the data and upload into target table. Here in second job we are applying all Transformation required to achieve the desired output.
 **API Script:**: This script helped us in getting the desired voucher value using API call. script json post request will be as mentioned below: \
-`        {       \
+       {       \
      	 "customer_id":"1", \
 	 "country_code": "Peru",  \
 	 "last_order_ts": "2020-03-22 00:00:00+00:00", \
 	 "first_order_ts": "2014-04-17T05:30:00.000+05:30", \
 	 "total_orders": 36, \
      "segment_name":"frequent_segment"\
-}`
+}
 
 url: http://127.0.0.1:5000/api/vouchervalue \
 airflow url:http://0.0.0.0:8080/admin/airflow/tree?dag_id=voucher_selection
